@@ -1,0 +1,25 @@
+<section id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Skills</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            {% for category_skills in site.skills_bar %}
+            <div class="col-lg-4">
+                <div class="h2">{{category_skills.last.category_name}}</div>
+                <hr>
+                {% for skill in category_skills.last.items %}
+                <div class="skillbar clearfix " data-percent="{{ skill.percent }}%">
+                    <div class="skillbar-title" style="background: #{{ skill.color_title }};">
+                        <span>{{ skill.name }}</span></div>
+                    <div class="skillbar-bar" style="background: #{{ skill.color }};"></div>
+                </div> <!-- End Skill Bar -->
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

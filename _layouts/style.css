@@ -1,0 +1,7 @@
+---
+layout: compress
+---
+
+{%include css/bootstrap.min.css %}
+{%include css/main.css %}
+{%include css/skills-bar.css %}

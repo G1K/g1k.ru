@@ -1,0 +1,185 @@
+.btn, .logo-main, .text-center, header {text-align: center}
+
+.btn, img {vertical-align: middle}
+
+* {box-sizing: border-box;z-index: 2}
+
+html {font-family: sans-serif;text-size-adjust: 100%;font-size: 10px;-webkit-tap-highlight-color: transparent}
+
+body {margin: 0;font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 15px;line-height: 1.42857;color: #164d8d;background-color: #ffffff;overflow-x: hidden}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block}
+
+.navbar {position: relative;min-height: 60px;margin-bottom: 21px;border: 1px solid transparent;border-width: 0;font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: 700}
+
+.navbar-fixed-bottom, .navbar-fixed-top {position: fixed;right: 0;left: 0;z-index: 1030;transform: translate3d(0, 0, 0)}
+
+.navbar-fixed-top {top: 0;border-width: 0 0 1px}
+
+.navbar-default {background-color: #164d8d}
+
+.navbar-default, .navbar-inverse {border: 0}
+
+.container {margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px}
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {margin-right: -15px;margin-left: -15px}
+
+button, input, optgroup, select, textarea {font-family: inherit;font-size: inherit;line-height: inherit;color: inherit;font-style: inherit;font-variant: inherit;font-weight: inherit;font-stretch: inherit;margin: 0}
+
+button {overflow: visible}
+
+button, select {text-transform: none}
+
+button, html input[type=button], input[type=reset], input[type=submit] {-webkit-appearance: button;cursor: pointer}
+
+.navbar-toggle {position: relative;float: right;margin-right: 15px;padding: 9px 10px;margin-top: 13px;margin-bottom: 13px;background-color: transparent;background-image: none;border: 1px solid transparent;border-radius: 4px}
+
+.navbar-default .navbar-toggle {border-color: #1a242f}
+
+.sr-only {position: absolute;width: 1px;height: 1px;margin: -1px;padding: 0;overflow: hidden;clip: rect(0 0 0 0);border: 0}
+
+.nav > li, .nav > li > a, .skillbar {position: relative}
+
+.navbar-toggle .icon-bar {display: block;width: 22px;height: 2px;border-radius: 1px}
+
+.navbar-default .navbar-toggle .icon-bar {background-color: #ffffff}
+
+.navbar-toggle .icon-bar + .icon-bar {margin-top: 4px}
+
+a {background: 0 0;text-decoration: none}
+
+a, a.active, a:active, a:focus, a:hover {outline: 0;color: #0c8e6a}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a, header {color: #ffffff}
+
+img {border: 0}
+
+.logo-responsive {display: none;float: left;height: 60px;padding: 10px}
+
+.logo-shrink {display: block}
+
+.logo-main {width: 370px;height: 370px;-webkit-border-radius: 99em;-moz-border-radius: 99em;border-radius: 50%;background-color: #ffffff;padding: 25px 20px;margin: auto}
+
+.logo-main svg {width: 330px;height: 330px;margin: auto}
+
+.navbar-brand {float: left;padding: 18.5px 15px 20.5px;font-size: 19px;line-height: 21px;height: 60px}
+
+.collapse {display: none}
+
+.navbar-collapse {overflow-x: visible;padding-right: 15px;padding-left: 15px;border-top: 1px solid transparent;box-shadow: rgba(255, 255, 255, .0980392) 0 1px 0 inset}
+
+hr, hr.star-light, hr.star-primary {border-image: initial;border-style: solid initial initial}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {max-height: 340px}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: transparent}
+
+ol, ul {margin-top: 0;margin-bottom: 10.5px}
+
+.nav {margin-bottom: 0;padding-left: 0;list-style: none}
+
+.navbar-nav {margin: 9.75px -15px}
+
+.navbar .navbar-nav {letter-spacing: 1px}
+
+.hidden {display: none !important;visibility: hidden !important}
+
+.nav > li {display: block}
+
+.nav > li > a {display: block;padding: 10px 15px}
+
+.navbar-nav > li > a {padding-top: 10px;padding-bottom: 10px;line-height: 21px}
+
+.navbar-nav > .active > a {background-color: #072e5c !important}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {color: #ffffff;background-color: #1a242f}
+
+header {background: #0c8e6a}
+
+header .container {padding-top: 100px;padding-bottom: 50px}
+
+.row {margin-left: -15px;margin-right: -15px}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px}
+
+header img {display: block;margin: 0 auto 20px}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {display: block;max-width: 100%;height: auto}
+
+header .intro-text .name {display: block;font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 2em;font-weight: 700}
+
+hr {box-sizing: content-box;height: 0;margin-top: 21px;margin-bottom: 21px;border-width: 1px 0 0;border-color: #ecf0f1 initial initial}
+
+hr.star-light, hr.star-primary {margin: 25px auto 30px;padding: 0;max-width: 250px;border-width: 5px 0 0;text-align: center}
+
+hr.star-light {border-color: #ffffff}
+
+header .intro-text .skills {font-size: 1.25em;font-weight: 300}
+
+section {padding: 75px 0}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: 400;line-height: 1.1;color: inherit}
+
+.h1, .h2, .h3, h1, h2, h3 {margin-top: 21px;margin-bottom: 10.5px}
+
+.h2, h2 {font-size: 32px}
+
+h1, h2, h3, h4, h5, h6 {text-transform: uppercase;font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: 700}
+
+h1 {font-size: 39px}
+
+h2 {font-size: 32px}
+
+section h2 {margin: 0}
+
+hr.star-primary {border-color: #164d8d}
+
+.skillbar {display: block;margin-bottom: 10px;width: 100%;background: #eeeeee;height: 40px;transition: width .4s linear, background-color}
+
+.skillbar-title {font-weight: 700;font-size: 13px;color: #ffffff;background: #6adcfa}
+
+.skillbar-title span {display: block;background: rgba(0, 0, 0, .0980392);padding: 0 10px;height: 25px;line-height: 25px}
+
+.skillbar-bar {height: 15px;width: 0;background: #6adcfa}
+
+.visible-lg, .visible-md, .visible-sm, .visible-xs {display: none !important}
+
+.visible-xs {display: block !important}
+
+.scroll-top {z-index: 1049;position: fixed;right: 2%;bottom: 2%;width: 50px;height: 50px}
+
+.btn {display: inline-block;margin-bottom: 0;font-weight: 400;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 10px 15px;font-size: 15px;line-height: 1.42857;border-radius: 4px;user-select: none}
+
+.btn-primary {color: #ffffff;background-color: #164d8d;border-color: #164d8d}
+
+a:active, a:hover {outline: 0}
+
+a:focus, a:hover {color: #0c8e6a;text-decoration: underline}
+
+.btn:focus, .btn:hover {color: #ffffff;text-decoration: none}
+
+.btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {color: #ffffff;background-color: #1a242f;border-color: #161f29}
+
+.scroll-top .btn {width: 50px;height: 50px;border-radius: 100%;font-size: 20px;line-height: 28px}
+
+@media (max-width: 320px) {
+	.logo-main {width: 260px;height: 260px}
+
+	.logo-main svg {width: 220px;height: 220px;margin: auto}
+}
+
+@media (min-width: 768px) {
+	header .container {padding-top: 200px;padding-bottom: 100px}
+
+	header .intro-text .name {font-size: 4.75em}
+
+	header .intro-text .skills {font-size: 1.75em}
+
+	.navbar-fixed-top {padding: 25px 0;-webkit-transition: padding .3s;-moz-transition: padding .3s;transition: padding .3s}
+
+	.navbar-fixed-top .navbar-brand {font-size: 2em;-webkit-transition: all .3s;-moz-transition: all .3s;transition: all .3s}
+
+	.navbar-fixed-top.navbar-shrink {padding: 10px 0}
+
+	.navbar-fixed-top.navbar-shrink .navbar-brand {font-size: 1.5em}
+}

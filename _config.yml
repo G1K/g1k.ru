@@ -1,0 +1,172 @@
+---
+title: mrG1K
+timezone: UTC
+collections:
+  achievements:
+    title: Achievements
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: mr@g1k.ru
+url: https://g1k.ru
+alt-logo: mrG1K - g1k.ru
+description: SEO specialist in website promotion and optimization. Experience with various technologies website development, php programming and server administration.
+skills: SEO Specialist -  Full Stack Developer - Linux Administrator
+meta_author:
+google_verify: ibZlxo26nMnstqpcyInXVWAyLsFTmy3ZD4nnEAZV450
+bing_verify:
+yandex_verify: 8bf46849ef61757a
+gtm_id: GTM-KZW584P
+contact: none
+paginate: 5
+compress_html:
+  clippings: all
+  comments:
+    - "<!-- "
+    - " -->"
+  endings: [ ]
+  ignore:
+    envs: [ ]
+  blanklines: false
+  profile: false
+  startings: [ ]
+includejsarr:
+  - "/js/cbpAnimatedHeader.js"
+color:
+  primary: 0C8E6A
+  primary-rgb: '24,288,156'
+  secondary: 164D8D
+  secondary-dark: 072E5C
+footer:
+  copyright: mrG1K
+  social: Contact me
+social:
+  - title: envelope
+    url: mailto:hello@g1k.ru
+  - title: paper-plane
+    url: https://telegram.me/mrG1K
+  - title: github
+    url: https://github.com/g1k
+markdown: kramdown
+permalink: none
+career-img: "/img/timeline/default.jpg"
+skills_bar:
+  seo:
+    category_name: Search Engine Optimization / Web Analytics
+    items:
+      - name: External ( Off page )
+        color_title: 579D1C
+        color: 164D8D
+        percent: 80
+      - name: Technical SEO
+        color_title: B3B3B3
+        color: 164D8D
+        percent: 90
+      - name: SEO Audits
+        color_title: FFD320
+        color: 164D8D
+        percent: 75
+      - name: Web Analytics
+        color_title: 7E0021
+        color: 164D8D
+        percent: 70
+      - name: SEO Competitor Analysis
+        color_title: 83CAFF
+        color: 164D8D
+        percent: 60
+      - name: SEO process automation
+        color_title: 46465e
+        color: 164D8D
+        percent: 30
+  develop:
+    category_name: Web Development
+    items:
+      - name: PHP
+        color_title: 6082BB
+        color: 164D8D
+        percent: 40
+      - name: Node.JS
+        color_title: 6082BB
+        color: 579D1C
+        percent: 40
+      - name: GIT
+        color_title: F05033
+        color: 164D8D
+        percent: 40
+      - name: API Yandex.Direct
+        color_title: FFCC01
+        color: 164D8D
+        percent: 30
+      - name: API Yandex.Metrica
+        color_title: B98FDB
+        color: 164D8D
+        percent: 50
+      - name: API Google.Adwords
+        color_title: 0B7243
+        color: 164D8D
+        percent: 20
+  im:
+    category_name: Internet Marketing
+    items:
+      - name: Parsing and Data Analysis
+        color_title: 46465e
+        color: 164D8D
+        percent: 75
+      - name: Excel
+        color_title: 02723B
+        color: 164D8D
+        percent: 60
+      - name: Power BI
+        color_title: F2C811
+        color: 164D8D
+        percent: 40
+      - name: Enhanced Ecommerce
+        color_title: FF861E
+        color: 164D8D
+        percent: 75
+      - name: Google Tag Manager
+        color_title: D02E2A
+        color: 164D8D
+        percent: 70
+  admin:
+    category_name: Administration
+    items:
+      - name: Debian
+        color_title: D60651
+        color: 164D8D
+        percent: 40
+      - name: Web servers Apache/Nginx
+        color_title: '039639'
+        color: 164D8D
+        percent: 50
+      - name: Sphinx search
+        color_title: 373535
+        color: 164D8D
+        percent: 35
+  smart-home:
+    category_name: Smart Home Automation
+    items:
+      - name: Home Assistant
+        color_title: 70C8D4
+        color: 164D8D
+        percent: 50
+      - name: Zigbee
+        color_title: '039639'
+        color: 164D8D
+        percent: 50
+      - name: ESPhome
+        color_title: 373535
+        color: 164D8D
+        percent: 45
+      - name: Cloud Api
+        color_title: 373535
+        color: 164D8D
+        percent: 45
+      - name: BLE
+        color_title: 373535
+        color: 164D8D
+        percent: 35
